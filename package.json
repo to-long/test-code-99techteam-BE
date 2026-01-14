@@ -3,17 +3,6 @@
   "version": "1.0.0",
   "description": "Coding problems workspace",
   "scripts": {
-    "problem1": "ts-node problem1/index.ts",
-    "test:1": "vitest run problem1",
-
-    "problem2": "pnpm --filter fe dev",
-    "problem2:build": "pnpm --filter fe build",
-    "problem2:serve": "pnpm --filter fe preview",
-    "problem2:test": "pnpm --filter fe test:run",    
-
-    "problem3": "ts-node problem3/index.ts",
-    "test:3": "vitest run problem3",
-
     "problem4": "ts-node problem4/index.ts",
     "test:4": "vitest run problem4",
     
