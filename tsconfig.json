@@ -1,0 +1,24 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "commonjs",
+    "lib": ["ES2020", "DOM", "DOM.Iterable"],
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "outDir": "./dist",
+    "rootDir": ".",
+    "resolveJsonModule": true,
+    "declaration": true,
+    "jsx": "react-jsx"
+  },
+  "include": [
+    "problem1/**/*",
+    "problem2/**/*",
+    "problem3/**/*",
+    "problem4/**/*",
+    "problem5/**/*"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

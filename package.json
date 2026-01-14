@@ -1,0 +1,40 @@
+{
+  "name": "test-code-99techteam",
+  "version": "1.0.0",
+  "description": "Coding problems workspace",
+  "scripts": {
+    "problem1": "ts-node problem1/index.ts",
+    "test:1": "vitest run problem1",
+
+    "problem2": "pnpm --filter fe dev",
+    "problem2:build": "pnpm --filter fe build",
+    "problem2:serve": "pnpm --filter fe preview",
+    "problem2:test": "pnpm --filter fe test:run",    
+
+    "problem3": "ts-node problem3/index.ts",
+    "test:3": "vitest run problem3",
+
+    "problem4": "ts-node problem4/index.ts",
+    "test:4": "vitest run problem4",
+    
+    "problem5": "ts-node problem5/index.ts",    
+    "test:5": "vitest run problem5"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.0",
+    "@types/react": "^18.2.45",
+    "@types/react-dom": "^18.2.18",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.32",
+    "tailwindcss": "^3.4.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3",
+    "vite": "^5.4.21",
+    "vitest": "^1.1.0"
+  }
+}

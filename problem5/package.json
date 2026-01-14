@@ -1,0 +1,27 @@
+{
+  "name": "be",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/main.ts",
+    "start": "tsx src/main.ts",
+    "build": "tsc",
+    "generate:swagger": "tsx generate-swagger.ts",
+    "db:migrate": "tsx db/migrate.ts",
+    "db:reset": "rm -f data.db && tsx db/migrate.ts"
+  },
+  "dependencies": {
+    "@hono/node-server": "^1.13.0",
+    "hono": "^4.6.0",
+    "sql.js": "^1.12.0",
+    "swagger-jsdoc": "^6.2.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.19.2",
+    "@types/sql.js": "^1.4.9",
+    "@types/swagger-jsdoc": "^6.0.4",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
